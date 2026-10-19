@@ -1,0 +1,463 @@
+[
+  {
+    "id": 1,
+    "query": "I lost a black wallet near the library",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Wallet",
+      "colour": "Black",
+      "location_name": "Library"
+    }
+  },
+  {
+    "id": 2,
+    "query": "Found a blue phone in Student Central",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Phone",
+      "colour": "Blue",
+      "location_name": "Student Central"
+    }
+  },
+  {
+    "id": 3,
+    "query": "I lost my keys at the car park",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Keys",
+      "location_name": "Car Park"
+    }
+  },
+  {
+    "id": 4,
+    "query": "Found a laptop in the computer lab",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Laptop",
+      "location_name": "Computer Lab"
+    }
+  },
+  {
+    "id": 5,
+    "query": "Lost a white charger in the cafeteria",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Charger",
+      "colour": "White",
+      "location_name": "Cafeteria"
+    }
+  },
+  {
+    "id": 6,
+    "query": "I found an ID card at the library",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "ID Card",
+      "location_name": "Library"
+    }
+  },
+  {
+    "id": 7,
+    "query": "Lost a red textbook near Student Central",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Textbook",
+      "colour": "Red",
+      "location_name": "Student Central"
+    }
+  },
+  {
+    "id": 8,
+    "query": "Found black clothing in the recreation centre",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Clothing",
+      "colour": "Black",
+      "location_name": "Recreation Centre"
+    }
+  },
+  {
+    "id": 9,
+    "query": "I lost a silver laptop in the lecture theatre",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Laptop",
+      "colour": "Silver",
+      "location_name": "Lecture Theatre"
+    }
+  },
+  {
+    "id": 10,
+    "query": "Found a charger at the computer lab",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Charger",
+      "location_name": "Computer Lab"
+    }
+  },
+  {
+    "id": 11,
+    "query": "Lost my mobile phone in the library",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Phone",
+      "location_name": "Library"
+    }
+  },
+  {
+    "id": 12,
+    "query": "I found a student card near the cafeteria",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "ID Card",
+      "location_name": "Cafeteria"
+    }
+  },
+  {
+    "id": 13,
+    "query": "Lost a blue wallet at the carpark",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Wallet",
+      "colour": "Blue",
+      "location_name": "Car Park"
+    }
+  },
+  {
+    "id": 14,
+    "query": "Found keys in the lecture hall",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Keys",
+      "location_name": "Lecture Theatre"
+    }
+  },
+  {
+    "id": 15,
+    "query": "I lost a black book in Student Central",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Textbook",
+      "colour": "Black",
+      "location_name": "Student Central"
+    }
+  },
+  {
+    "id": 16,
+    "query": "Found a white smartphone at the gym",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Phone",
+      "colour": "White",
+      "location_name": "Recreation Centre"
+    }
+  },
+  {
+    "id": 17,
+    "query": "Lost a charger cable in the computer laboratory",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Charger",
+      "location_name": "Computer Lab"
+    }
+  },
+  {
+    "id": 18,
+    "query": "Found a grey laptop in the library",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Laptop",
+      "colour": "Grey",
+      "location_name": "Library"
+    }
+  },
+  {
+    "id": 19,
+    "query": "I lost my ID card at Student Central",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "ID Card",
+      "location_name": "Student Central"
+    }
+  },
+  {
+    "id": 20,
+    "query": "Found a green jacket in the cafeteria",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Clothing",
+      "colour": "Green",
+      "location_name": "Cafeteria"
+    }
+  },
+  {
+    "id": 21,
+    "query": "I lost a phone yesterday near the library",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Phone",
+      "location_name": "Library"
+    }
+  },
+  {
+    "id": 22,
+    "query": "Found a wallet today at Student Central",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Wallet",
+      "location_name": "Student Central"
+    }
+  },
+  {
+    "id": 23,
+    "query": "Lost keys last week in the car park",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Keys",
+      "location_name": "Car Park"
+    }
+  },
+  {
+    "id": 24,
+    "query": "Found a textbook this morning in the library",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Textbook",
+      "location_name": "Library"
+    }
+  },
+  {
+    "id": 25,
+    "query": "I lost a black charger on 2026-09-20",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Charger",
+      "colour": "Black"
+    }
+  },
+  {
+    "id": 26,
+    "query": "Found a blue phone on 2026-09-21 at the cafeteria",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Phone",
+      "colour": "Blue",
+      "location_name": "Cafeteria"
+    }
+  },
+  {
+    "id": 27,
+    "query": "Lost a laptop between 2026-09-10 and 2026-09-15 in the library",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Laptop",
+      "location_name": "Library"
+    }
+  },
+  {
+    "id": 28,
+    "query": "Found an ID card between 2026-09-01 and 2026-09-05 at Student Central",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "ID Card",
+      "location_name": "Student Central"
+    }
+  },
+  {
+    "id": 29,
+    "query": "Black wallet near library entrance",
+    "expected": {
+      "category_name": "Wallet",
+      "colour": "Black",
+      "location_name": "Library"
+    }
+  },
+  {
+    "id": 30,
+    "query": "Blue phone Student Central",
+    "expected": {
+      "category_name": "Phone",
+      "colour": "Blue",
+      "location_name": "Student Central"
+    }
+  },
+  {
+    "id": 31,
+    "query": "keys car park",
+    "expected": {
+      "category_name": "Keys",
+      "location_name": "Car Park"
+    }
+  },
+  {
+    "id": 32,
+    "query": "laptop computer lab",
+    "expected": {
+      "category_name": "Laptop",
+      "location_name": "Computer Lab"
+    }
+  },
+  {
+    "id": 33,
+    "query": "white charger cafeteria",
+    "expected": {
+      "category_name": "Charger",
+      "colour": "White",
+      "location_name": "Cafeteria"
+    }
+  },
+  {
+    "id": 34,
+    "query": "student id library",
+    "expected": {
+      "category_name": "ID Card",
+      "location_name": "Library"
+    }
+  },
+  {
+    "id": 35,
+    "query": "red textbook lecture theatre",
+    "expected": {
+      "category_name": "Textbook",
+      "colour": "Red",
+      "location_name": "Lecture Theatre"
+    }
+  },
+  {
+    "id": 36,
+    "query": "black clothing recreation center",
+    "expected": {
+      "category_name": "Clothing",
+      "colour": "Black",
+      "location_name": "Recreation Centre"
+    }
+  },
+  {
+    "id": 37,
+    "query": "silver laptop lecture hall",
+    "expected": {
+      "category_name": "Laptop",
+      "colour": "Silver",
+      "location_name": "Lecture Theatre"
+    }
+  },
+  {
+    "id": 38,
+    "query": "charger computer labs",
+    "expected": {
+      "category_name": "Charger",
+      "location_name": "Computer Lab"
+    }
+  },
+  {
+    "id": 39,
+    "query": "I found something black near the library",
+    "expected": {
+      "report_type": "FOUND",
+      "colour": "Black",
+      "location_name": "Library"
+    }
+  },
+  {
+    "id": 40,
+    "query": "I lost something red at Student Central",
+    "expected": {
+      "report_type": "LOST",
+      "colour": "Red",
+      "location_name": "Student Central"
+    }
+  },
+  {
+    "id": 41,
+    "query": "Found an item in the car park",
+    "expected": {
+      "report_type": "FOUND",
+      "location_name": "Car Park"
+    }
+  },
+  {
+    "id": 42,
+    "query": "Lost an item in the cafeteria",
+    "expected": {
+      "report_type": "LOST",
+      "location_name": "Cafeteria"
+    }
+  },
+  {
+    "id": 43,
+    "query": "Found a mobile at the rec centre",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Phone",
+      "location_name": "Recreation Centre"
+    }
+  },
+  {
+    "id": 44,
+    "query": "Lost a student card in the computer lab",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "ID Card",
+      "location_name": "Computer Lab"
+    }
+  },
+  {
+    "id": 45,
+    "query": "Found a book in the library",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Textbook",
+      "location_name": "Library"
+    }
+  },
+  {
+    "id": 46,
+    "query": "Lost black keys near the lecture theatre",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Keys",
+      "colour": "Black",
+      "location_name": "Lecture Theatre"
+    }
+  },
+  {
+    "id": 47,
+    "query": "Found a white wallet near Student Central",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Wallet",
+      "colour": "White",
+      "location_name": "Student Central"
+    }
+  },
+  {
+    "id": 48,
+    "query": "Lost blue clothing near the gym",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Clothing",
+      "colour": "Blue",
+      "location_name": "Recreation Centre"
+    }
+  },
+  {
+    "id": 49,
+    "query": "Found a silver charger at the parking lot",
+    "expected": {
+      "report_type": "FOUND",
+      "category_name": "Charger",
+      "colour": "Silver",
+      "location_name": "Car Park"
+    }
+  },
+  {
+    "id": 50,
+    "query": "I lost a grey phone in the cafe",
+    "expected": {
+      "report_type": "LOST",
+      "category_name": "Phone",
+      "colour": "Grey",
+      "location_name": "Cafeteria"
+    }
+  }
+]

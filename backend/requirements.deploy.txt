@@ -1,0 +1,3 @@
+-r requirements.txt
+# Required for current MySQL caching_sha2_password authentication.
+PyMySQL[rsa]>=1.1,<2

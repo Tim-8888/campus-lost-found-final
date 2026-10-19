@@ -1,0 +1,128 @@
+{
+  "summary": {
+    "model": "gemini-3.5-flash-lite",
+    "queries_run": 3,
+    "successful_api_calls": 3,
+    "api_success_rate": 1.0,
+    "expected_fields_checked": 11,
+    "expected_fields_correct": 11,
+    "field_accuracy": 1.0
+  },
+  "results": [
+    {
+      "id": 1,
+      "query": "I lost a black wallet near the library",
+      "status": "ok",
+      "warnings": [],
+      "field_checks": {
+        "report_type": {
+          "expected": "LOST",
+          "actual": "LOST",
+          "pass": true
+        },
+        "category_name": {
+          "expected": "Wallet",
+          "actual": "Wallet",
+          "pass": true
+        },
+        "colour": {
+          "expected": "Black",
+          "actual": "black",
+          "pass": true
+        },
+        "location_name": {
+          "expected": "Library",
+          "actual": "Library",
+          "pass": true
+        }
+      },
+      "actual": {
+        "report_type": "LOST",
+        "category_id": 8,
+        "category_name": "Wallet",
+        "colour": "black",
+        "location_id": 1,
+        "location_name": "Library",
+        "date_from": null,
+        "date_to": null,
+        "keywords": [],
+        "status": "OPEN"
+      }
+    },
+    {
+      "id": 2,
+      "query": "Found a blue phone in Student Central",
+      "status": "ok",
+      "warnings": [],
+      "field_checks": {
+        "report_type": {
+          "expected": "FOUND",
+          "actual": "FOUND",
+          "pass": true
+        },
+        "category_name": {
+          "expected": "Phone",
+          "actual": "Phone",
+          "pass": true
+        },
+        "colour": {
+          "expected": "Blue",
+          "actual": "blue",
+          "pass": true
+        },
+        "location_name": {
+          "expected": "Student Central",
+          "actual": "Student Central",
+          "pass": true
+        }
+      },
+      "actual": {
+        "report_type": "FOUND",
+        "category_id": 6,
+        "category_name": "Phone",
+        "colour": "blue",
+        "location_id": 3,
+        "location_name": "Student Central",
+        "date_from": null,
+        "date_to": null,
+        "keywords": [],
+        "status": "OPEN"
+      }
+    },
+    {
+      "id": 3,
+      "query": "I lost my keys at the car park",
+      "status": "ok",
+      "warnings": [],
+      "field_checks": {
+        "report_type": {
+          "expected": "LOST",
+          "actual": "LOST",
+          "pass": true
+        },
+        "category_name": {
+          "expected": "Keys",
+          "actual": "Keys",
+          "pass": true
+        },
+        "location_name": {
+          "expected": "Car Park",
+          "actual": "Car Park",
+          "pass": true
+        }
+      },
+      "actual": {
+        "report_type": "LOST",
+        "category_id": 4,
+        "category_name": "Keys",
+        "colour": null,
+        "location_id": 5,
+        "location_name": "Car Park",
+        "date_from": null,
+        "date_to": null,
+        "keywords": [],
+        "status": "OPEN"
+      }
+    }
+  ]
+}
